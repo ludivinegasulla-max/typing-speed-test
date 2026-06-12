@@ -30,3 +30,8 @@ Typing Speed Test est un exercice réalisé en HTML, CSS et JavaScript qui perme
 1. Ouvrir le fichier "Typing-Speed-Test" dans Visual Studio Code ou autre éditeur de code compatible
 2. Ouvrir le fichier index.html dans un navigateur web grâce au bouton "Go Live"
 
+## Auteur
+
+Ludivine Gasulla
+
+BTS SIO 1ère année - Option SISR
