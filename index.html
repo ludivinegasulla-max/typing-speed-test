@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Typing <span id="Speed">Speed </span>Test</h1>
+    <p class = "info">Si tout fonctionne, ne touchez à rien. Ah... trop tard.</p>
+    <div id="stats">
+        <p>Temps : <span id="timer">0</span> secondes</p>
+        <p>WPM : <span id="wpm">0</span></p>
+    </div>
+    <h2>Texte à recopier</h2>
+    <div id="texte-a-recopier"></div>
+
+
+    <input 
+    type="text"
+    id="saisie-texte"
+    placeholder="Tapez le texte ici...">
+
+    <button id="btn-recommencer"> Recommencer</button>
+    
+    <div id="resultats">
+        <p>Précision : <span id="precision">0</span>%</p>
+    </div>
+
+    
+ <audio id="son-erreur" src="./son/bip.mp3"></audio>   
+ <audio id="son-victoire" src="./son/applaudissements.mp3"></audio>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

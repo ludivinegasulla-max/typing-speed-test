@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-image:linear-gradient( rgba(243, 240, 235, 0.65), rgba(243, 240, 235, 0.65) ),url("./image/course.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+#texte-a-recopier {
+    width: 700px;
+    min-height: 120px;
+    background-color:white;
+    border: none;
+    border-left: 6px solid coral;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    cursor:auto;
+    user-select: none;
+}
+
+#saisie-texte {
+    width: 700px;
+    padding: 18px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px solid #ddd;
+    font-size: 22px;
+    transition: 0.3s
+
+}
+#saisie-texte:focus {
+    outline: none;
+    border-color: coral;
+}
+#Speed {
+    color: coral;
+}
+
+#stats {
+    display: flex;
+    gap: 120px;
+
+    margin-bottom: 40px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+#btn-recommencer {
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background-color: white;
+
+    border: 2px solid coral;
+
+    border-radius: 8px;
+
+    color: coral;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+#btn-recommencer:hover {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.correct {
+    color:#00b050;
+}
+
+.incorrect {
+    color:  #ff3b30;
+}
+
+.info {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
